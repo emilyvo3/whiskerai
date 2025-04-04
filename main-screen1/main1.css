@@ -1,0 +1,155 @@
+/* background */
+.background {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url(background.png);
+}
+
+
+/* brand */
+
+position: absolute;
+width: 175px;
+height: 175px;
+left: 114px;
+top: -59px;
+
+background: url(Untitled_Artwork 1.png);
+
+
+/* menu */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 0px;
+top: 0px;
+
+background: url(Untitled_Artwork 3);
+
+
+/* new */
+
+position: absolute;
+width: 76px;
+height: 76px;
+left: 28px;
+top: -10px;
+
+background: url(Untitled_Artwork 2.png);
+
+
+/* input */
+
+position: absolute;
+width: 331px;
+height: 331px;
+left: 9px;
+top: 410px;
+
+background: url(Untitled_Artwork 6.png);
+
+
+/* submit */
+
+position: absolute;
+width: 71px;
+height: 71px;
+left: 322px;
+top: 537px;
+
+background: url(Untitled_Artwork 5);
+
+
+/* Paw something... */
+
+position: absolute;
+width: 249px;
+height: 13px;
+left: 51px;
+top: 566px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #595D5F;
+
+
+
+/* keyboard */
+
+position: absolute;
+width: 402px;
+height: 267px;
+left: 0px;
+top: 607px;
+
+background: url(image.png);
+
+
+/* ask-text */
+
+position: absolute;
+width: 405px;
+height: 405px;
+left: 0px;
+top: 66px;
+
+background: url(Untitled_Artwork 8.png);
+
+
+/* ex-group */
+
+position: absolute;
+width: 449px;
+height: 182px;
+left: -36px;
+top: 417px;
+
+
+
+/* ex 1 */
+
+position: absolute;
+width: 182px;
+height: 182px;
+left: -36px;
+top: 417px;
+
+background: url(ex.png);
+
+
+/* ex 2 */
+
+position: absolute;
+width: 182px;
+height: 182px;
+left: 98px;
+top: 417px;
+
+background: url(ex.png);
+
+
+/* ex 3 */
+
+position: absolute;
+width: 182px;
+height: 182px;
+left: 231px;
+top: 417px;
+
+background: url(ex.png);

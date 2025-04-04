@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Load Page</title>
+    <link rel="stylesheet" href="load.css">
 </head>
+
 <body>
-    <img src="logo.png" alt="Loading..." style="display: block; margin: auto;"/>
+    <div class="background"><img src="logo.png" alt="Loading..." /></div>
+    
+    <!-- <img id="logo" src="logo.png" alt="Loading..."/> -->
+    <!-- <div class="logo"></div> -->
 </body>
+<script>
+    // Simulate loading process
+    setTimeout(() => {
+        window.location.href = "file:///Users/emilyvo/whiskerai/main-screen1/main1.html"; // Redirect to main page after loading
+    }, 3000); // Adjust the time as needed
+</script>
+
 </html>
